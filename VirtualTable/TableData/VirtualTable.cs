@@ -8,7 +8,8 @@ namespace _VirtualTable {
             get => _rows[index];
             set => _rows[index] = value;
         }
-
+        public int Lenght => _rows.Count;
+        
         public VirtualTable() { }
         public VirtualTable(List<ConsoleTable> rows) {
             _rows = rows;
