@@ -1,4 +1,4 @@
-namespace _ConsoleTable {
+namespace _VirtualTable {
     interface ITableItem {
         string Value { get; set; }
         

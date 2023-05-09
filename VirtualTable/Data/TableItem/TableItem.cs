@@ -1,4 +1,4 @@
-namespace _ConsoleTable {
+namespace _VirtualTable {
     partial class TableItem : ITableItem {
         public string Value { get; set; } = "";
         
